@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "{{lookup('env','ANSIBLE_USERNAME')}}   ----------- {{lookup('env','ANSIBLE_USERNAME')}}"
+        msg: "{{lookup('env','username')}}   ----------- {{lookup('env','ANSIBLE_USERNAME')}}"
