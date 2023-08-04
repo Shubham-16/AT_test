@@ -3,4 +3,4 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "{{lookup('env','ansible_user')}}   ----------- {{ansible_user}}"
+        msg: "{{ansible_password}}   ----------- {{ansible_user}}"
